@@ -1,11 +1,12 @@
-import Content from './components/Content';
 import './App.css';
+
+import ProgressTracker from './components/ProgressTracker';
 
 function App() {
   return (
     <>
       <h1>Hello world!</h1>
-      <Content />
+      <ProgressTracker />
     </>
   );
 }
